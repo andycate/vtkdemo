@@ -30,5 +30,6 @@ def main():
 if __name__ == '__main__':
     if len(sys.argv) < 4:
         print('usage: python3 label.py /path/to/input.mp4 /path/to/output.mp4 /path/to/model.pb')
+        sys.exit(1)
     main()
 
